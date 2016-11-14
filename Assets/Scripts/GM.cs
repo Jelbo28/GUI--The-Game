@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class GM : MonoBehaviour
 {
@@ -28,7 +28,8 @@ public class GM : MonoBehaviour
     // Update is called once per frame
     void Awake()
     {
-        if (EditorSceneManager.GetActiveScene().name /*Application.loadedLevelName*/ == "Level")
+        
+        if (SceneManager.GetActiveScene().name /*Application.loadedLevelName*/ == "Level")
         {
             pointTotal = 10;
             pointGraphic.text = "Score: " + pointTotal;
