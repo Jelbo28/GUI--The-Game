@@ -3,7 +3,7 @@ using System.Collections;
 using System.Linq;
 using UnityEngine.UI;
 
-public class ButtonSpawner : MonoBehaviour
+public class GUITG_ButtonSpawner : MonoBehaviour
 {
     [SerializeField]
     Transform[] SpawnPoints;

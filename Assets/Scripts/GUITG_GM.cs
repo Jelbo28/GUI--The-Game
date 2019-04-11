@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GM : MonoBehaviour
+public class GUITG_GM : MonoBehaviour
 {
     [SerializeField]
     Text pointGraphic;

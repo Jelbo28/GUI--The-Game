@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GUIAspectRatioScale : MonoBehaviour
+public class GUITG_GUIAspectRatioScale : MonoBehaviour
 {
     [SerializeField]
     Vector2 scaleOnRatio1 = new Vector2(0.1f, 0.1f);

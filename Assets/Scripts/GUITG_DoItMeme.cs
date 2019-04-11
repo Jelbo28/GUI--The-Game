@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DoItMeme : MonoBehaviour
+public class GUITG_DoItMeme : MonoBehaviour
 {
     [SerializeField]
     GameObject DoIt;

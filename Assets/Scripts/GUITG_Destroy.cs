@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Destroy : MonoBehaviour
+public class GUITG_Destroy : MonoBehaviour
 {
 	// Use this for initialization
 	void Awake ()

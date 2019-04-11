@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Perlin : MonoBehaviour
+public class GUITG_Perlin : MonoBehaviour
 {
     [SerializeField]
     GameObject shaken;

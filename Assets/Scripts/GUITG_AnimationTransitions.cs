@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class AnimationTransitions : MonoBehaviour
+public class GUITG_AnimationTransitions : MonoBehaviour
 {
     public void LoadLevel()
     {
